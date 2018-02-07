@@ -1,23 +1,23 @@
 # Site settings
-email: 
+email: silqwer@naver.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
+title: silqwer
+description: Hi, My name is KimYongHo
 url: ""
 twitter_username: 
 default_img: 
 
 # Profile settings
-name: 
+name: KimYongHo
 profile_img: 
 profile: 
 social:
-  github: 
+github: 
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
@@ -26,7 +26,7 @@ permalink: /:year/:month/:day/:title/
 
 # Sass
 sass:
-  style: compressed
+style: compressed
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
