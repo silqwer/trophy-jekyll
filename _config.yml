@@ -16,8 +16,8 @@ default_img:
 name: KimYongHo
 profile_img: 
 profile: 
-social:https://www.facebook.com/yongho.kim.58
-github:https://github.com/silqwer
+social: https://www.facebook.com/yongho.kim.58
+github: https://github.com/silqwer
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
