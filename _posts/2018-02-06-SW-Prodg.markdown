@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "시나리오 저작도구"
-date: 2018-02-08
+title: "Scen"
+date: 2018-02-06
 categories:
   - Portfolio
-description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 시나리오 저자도구 
+description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 알기쉬운 코딩: 피지컬컴퓨팅 
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
