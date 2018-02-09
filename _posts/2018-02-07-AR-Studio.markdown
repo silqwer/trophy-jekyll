@@ -5,7 +5,7 @@ date: 2018-02-07
 categories:
   - Portfolio
 description: 웨러블 디바이스와 AR기술을 활용하는 지식서비스 시스탬 개발, AR 저작도구 
-image: {{ site.url }}/assets/img/ar/arCntentsPreview.png
+image:  https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
 
