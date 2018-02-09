@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Scenario authoring tool"
+title: "SW Prodg"
 date: 2018-02-08
 categories:
   - Portfolio
-description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 시나리오 저작도구 
+description: 웨러블 디바이스와 AR기술을 활용하는 지식서비스 시스탬 개발, AR 저작도구 
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
+
 시나리오 제작도구는 재난상황별 시나리오에 따른 재난안전체험 연출을 위하여 시나리
 오 저작 도구를 제공하는 방법에 관한 것으로, 보다 상세하게는 재난안전체험을 씬
 단위, 서브 씬 단위, 클립 단위로 분류하고, 클립 단위별 무대 연출에 따른 체험

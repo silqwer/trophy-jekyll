@@ -1,28 +1,42 @@
 ---
 layout: post
-title: "AR Studio"
+title: "Scenario authoring tool"
 date: 2018-02-07
 categories:
   - Portfolio
-description: 웨러블 디바이스와 AR기술을 활용하는 지식서비스 시스탬 개발, AR 저작도구 
-image:  /../assets/img/ar/arCntentsPreview.png
-image-sm: /../assets/img/ar/arCntentsPreview.png
+description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 시나리오 저작도구 
+image: https://unsplash.it/2000/1200?image=1003
+image-sm: https://unsplash.it/500/300?image=1003
 ---
+시나리오 제작도구는 재난상황별 시나리오에 따른 재난안전체험 연출을 위하여 시나리
+오 저작 도구를 제공하는 방법에 관한 것으로, 보다 상세하게는 재난안전체험을 씬
+단위, 서브 씬 단위, 클립 단위로 분류하고, 클립 단위별 무대 연출에 따른 체험
+동선을 시나리오에 적용 가능하도록 제공하는 저작도구입니다. 
 
-웹 시스템에 등록된 지식DB를 이용하여 콘텐츠를 구성할 객체, 마커 및 정보를 선택하여 스마트글라스 사용자에게 제공할 지식 콘텐츠를 저작할 수 있는 기능을 제공하고, 사용자 앱에서 제공하는 AR Viewer를 통해 텍스트, 이미지 또는 3D 실물인식 등의 라이브러리를 통하여 저작한 AR콘텐츠의 미리보기를 제공하는 저작도구 입니다.  
+<ul>
+  <li>Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.</li>
+  <li>Church-key crucifix messenger bag health goth</li>
+  <li>Try-hard artisan direct trade</li>
+  <li>Cold-pressed selfies</li>
+</ul>
+
+<ol>
+  <li>Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.</li>
+  <li>Church-key crucifix messenger bag health goth</li>
+  <li>Try-hard artisan direct trade</li>
+  <li>Cold-pressed selfies</li>
+</ol>
 
 <h3>주요기능</h3>
 <ol>
-  <li>객체-마커 탐색</li>
-  <li>마커에 연결된 정보 리스트 제공</li>
-  <li>콘텐츠(정보제공, 네비게이션 및 정비 등) 저작기능 제공</li>
-  <li>새로만들기, 불러오기 및 저장하기</li>
-  <li>SVG, JSON, PNG 내보내기</li>
-  <li>배포를 통하여 S/G로 내려주기</li>
+  <li>Spring Security을 이용한 로그인</li>
+  <li>Church-key crucifix messenger bag health goth</li>
+  <li>Try-hard artisan direct trade</li>
+  <li>Cold-pressed selfies</li>
 </ol>
 
 <figure>
-  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
+  <img src="https://unsplash.it/2000/1200?image=1003" alt="Placeholder"/>
 </figure>
 
 Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry. Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
