@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Scen"
+title: "SW Prodg"
 date: 2018-02-06
 categories:
-  - Portfolio
+  - SW Prodg
 description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 알기쉬운 코딩: 피지컬컴퓨팅 
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
