@@ -3,7 +3,7 @@ layout: post
 title: "Scenario authoring tool"
 date: 2018-02-08
 categories:
-  - Scenario-authoring-tool
+  - Portfolio
 description: 혼합현실 기법을 활용한 재난방지 시뮬레이션 기술 개발, 시나리오 저작도구 
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
