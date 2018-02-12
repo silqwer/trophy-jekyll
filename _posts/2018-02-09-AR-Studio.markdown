@@ -11,7 +11,22 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 
 웹 시스템에 등록된 지식DB를 이용하여 콘텐츠를 구성할 객체, 마커 및 정보를 선택하여 스마트글라스 사용자에게 제공할 지식 콘텐츠를 저작할 수 있는 기능을 제공하고, 사용자 앱에서 제공하는 AR Viewer를 통해 텍스트, 이미지 또는 3D 실물인식 등의 라이브러리를 통하여 저작한 AR콘텐츠의 미리보기를 제공하는 저작도구 입니다.  
 
-<h3>주요기능</h3>
+<figure>
+  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
+  <figcaption>AR Studio 저작화면</figcaption>
+</figure>
+
+<h3>구현기능</h3>
+<ol>
+  <li>http 통신을 통한 SSO(Single sign-on) 연동</li>
+  <li>ztree를 이용한 탐색메뉴 구현</li>
+  <li>jqueryui를 이용한 윈도우 최소화 최대화, 탭메뉴, 드래그앤드롭</li>
+  <li>fabricjs이용한 저작도구 구현(svg, png, json)</li>
+  <li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
+  <li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
+</ol>
+
+<h3>AR 저작도구 주요기능</h3>
 <ol>
   <li>객체-마커 탐색</li>
   <li>마커에 연결된 정보 리스트 제공</li>
@@ -20,11 +35,6 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
   <li>SVG, JSON, PNG 내보내기</li>
   <li>배포를 통하여 S/G로 내려주기</li>
 </ol>
-
-<figure>
-  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
-  <figcaption>AR Studio 저작화면</figcaption>
-</figure>
 
 <h3>화면설명</h3>
 로그인은  자체 SSO(Single sign-on)을 구현하여  To21의 지식시스템과 AR Studio의 로그인 시스템을 연동 시켰습니다.
@@ -37,7 +47,7 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
  	<figcaption>SSO을 통한 로그인 구현</figcaption>
 </figure>
-메인화면은 배경이미지 
+메인화면은 기본적인 저작도구 화면으로 레이아웃을 잡았습니다. 하단의 메뉴와 속성창은 JqueryUI
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/main.png" alt="Placeholder"/>
  	<figcaption>매인화면</figcaption>
