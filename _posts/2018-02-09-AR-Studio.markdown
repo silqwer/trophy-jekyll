@@ -37,21 +37,66 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
  	<figcaption>SSO을 통한 로그인 구현</figcaption>
 </figure>
+메인화면은 배경이미지 
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/main.png" alt="Placeholder"/>
+ 	<figcaption>매인화면</figcaption>
+</figure>
 
-<ol>
-  <li>로그인</li>
-  <li>메인화면</li>
-  <li>새로만들기</li>
-  <li>불러오기</li>
-  <li>저장하기, 다른이름으로 저장하기</li>
-  <li>삭제하기</li>
-  <li>AR미리보기</li>
-  <li>배포하기</li>
-  <li>다운로드</li>
-  <li>이미지 내보내기</li>
-  <li>SVG로 내보내기</li>
-  <li>JSON으로 내보내기</li>
-</ol>
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
+ 	<figcaption>새로만들기, 불러오기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/setting.png" alt="Placeholder"/>
+ 	<figcaption>콘텐츠 환경 설정하기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/make.png" alt="Placeholder"/>
+ 	<figcaption>콘텐츠 만들기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/preview.png" alt="Placeholder"/>
+ 	<figcaption>AR 콘텐츠 미리보기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="Placeholder"/>
+ 	<figcaption>AR미리보기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/export.png" alt="Placeholder"/>
+ 	<figcaption>배포하기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/download1.png" alt="Placeholder"/>
+ 	<figcaption>다운로드 된 저작된 이미지</figcaption>
+ 	
+ 	<img src="{{ site.url }}/assets/img/ar/download2.png" alt="Placeholder"/>
+ 	<figcaption>다운로드 된 저작된 Json</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/imgExport.png" alt="Placeholder"/>
+ 	<figcaption>이미지 내보내기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/svgExport.png" alt="Placeholder"/>
+ 	<figcaption>SVG로 내보내기</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/jsonExport.png" alt="Placeholder"/>
+ 	<figcaption>JSON으로 내보내기</figcaption>
+</figure>
+
+
 
 <h3>시연영상</h3>
 <ol>
