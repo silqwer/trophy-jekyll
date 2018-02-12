@@ -17,14 +17,14 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 </figure>
 
 <h3>구현기능</h3>
-<ol>
+<ul>
   <li>http 통신을 통한 SSO(Single sign-on) 연동</li>
   <li>ztree를 이용한 탐색메뉴 구현</li>
   <li>jqueryui를 이용한 윈도우 최소화 최대화, 탭메뉴, 드래그앤드롭</li>
   <li>fabricjs이용한 저작도구 구현(svg, png, json)</li>
   <li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
   <li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
-</ol>
+</ul>
 
 <h3>AR 저작도구 주요기능</h3>
 <ol>
@@ -41,12 +41,11 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/SSO.png" alt="Placeholder"/>
  	<figcaption>SSO을 통한 로그인 인터페이스</figcaption>
-</figure>
-
-<figure>
-	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
+ 	
+ 	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
  	<figcaption>SSO을 통한 로그인 구현</figcaption>
 </figure>
+
 메인화면은 기본적인 저작도구 화면으로 레이아웃을 잡았습니다. 하단의 메뉴와 속성창은 JqueryUI을 이용하여 구현
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/main.png" alt="Placeholder"/>
@@ -57,7 +56,8 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 <figure>
 <img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
  	<figcaption>새로만들기, 불러오기</figcaption>
-	<img src="{{ site.url }}/assets/img/ar/setting.png" alt="Placeholder"/>
+</figure>
+<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
  	<figcaption>콘텐츠 환경 설정하기</figcaption>
 </figure>
 
@@ -65,16 +65,20 @@ Fabricjs 을 이용한 저작도구 기능 구현
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/make.png" alt="Placeholder"/>
  	<figcaption>콘텐츠 만들기</figcaption>
- 	
+</figure>
+<figure> 	
  	<img src="{{ site.url }}/assets/img/ar/preview.png" alt="Placeholder"/>
  	<figcaption>AR 콘텐츠 미리보기</figcaption>
- 	
+</figure>
+<figure> 	
  	<img src="{{ site.url }}/assets/img/ar/imgExport.png" alt="Placeholder"/>
  	<figcaption>이미지 내보내기</figcaption>
- 	
+</figure>
+<figure> 	
  	<img src="{{ site.url }}/assets/img/ar/svgExport.png" alt="Placeholder"/>
  	<figcaption>SVG로 내보내기</figcaption>
- 	
+</figure>
+<figure> 	
  	<img src="{{ site.url }}/assets/img/ar/jsonExport.png" alt="Placeholder"/>
  	<figcaption>JSON으로 내보내기</figcaption>
  	
@@ -84,13 +88,16 @@ Fabricjs 을 이용한 저작도구 기능 구현
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="Placeholder"/>
  	<figcaption>AR미리보기</figcaption>
- 	
- 	<img src="{{ site.url }}/assets/img/ar/export.png" alt="Placeholder"/>
+</figure>
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/export.png" alt="Placeholder"/>
  	<figcaption>배포하기</figcaption>
- 	
- 	<img src="{{ site.url }}/assets/img/ar/download1.png" alt="Placeholder"/>
+</figure>
+<figure>
+	<img src="{{ site.url }}/assets/img/ar/download1.png" alt="Placeholder"/>
  	<figcaption>다운로드 된 저작된 이미지</figcaption>
- 	
+</figure>
+<figure>
  	<img src="{{ site.url }}/assets/img/ar/download2.png" alt="Placeholder"/>
  	<figcaption>다운로드 된 저작된 Json</figcaption>
 </figure>
@@ -101,5 +108,8 @@ Fabricjs 을 이용한 저작도구 기능 구현
   	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
  	<figcaption>SSO을 통한 로그인 구현</figcaption>
   </li>
-  <li>AR Viewer</li>
+  <li>AR Viewer
+  	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
+ 	<figcaption>SSO을 통한 로그인 구현</figcaption>
+  </li>
 </ol>
