@@ -54,10 +54,11 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 
 새로만들기, 불러오기를 통해 DB에서 데이터를 불러오면 zTree을 통해서 트리구조의 메뉴를 생성, 윈도우 생성을 통해 AR 저작도구에서 사용할 ARS 객체 생성
 <figure>
-<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
+	<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
  	<figcaption>새로만들기, 불러오기</figcaption>
 </figure>
-<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
+<figure>	
+	<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
  	<figcaption>콘텐츠 환경 설정하기</figcaption>
 </figure>
 
