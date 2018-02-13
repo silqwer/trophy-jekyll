@@ -11,11 +11,6 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 
 웹 시스템에 등록된 지식DB를 이용하여 콘텐츠를 구성할 객체, 마커 및 정보를 선택하여 스마트글라스 사용자에게 제공할 지식 콘텐츠를 저작할 수 있는 기능을 제공하고, 사용자 앱에서 제공하는 AR Viewer를 통해 텍스트, 이미지 또는 3D 실물인식 등의 라이브러리를 통하여 저작한 AR콘텐츠의 미리보기를 제공하는 저작도구 입니다.  
 
-<figure>
-  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
-  <figcaption>AR Studio 저작화면</figcaption>
-</figure>
-
 <h3>구현기능</h3>
 <ul>
   <li>http 통신을 통한 SSO(Single sign-on) 연동</li>
@@ -25,6 +20,11 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
   <li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
   <li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
 </ul>
+
+<figure>
+  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
+  <figcaption>AR Studio 저작화면</figcaption>
+</figure>
 
 <h3>AR 저작도구 주요기능</h3>
 <ol>
@@ -37,7 +37,7 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 </ol>
 
 <h3>화면설명</h3>
-로그인은  자체 SSO(Single sign-on)을 구현하여  To21의 지식시스템과 AR Studio의 로그인 시스템을 연동 시켰습니다.
+로그인은  자체 SSO(Single sign-on)을 구현하여  To21의 지식시스템과 AR Studio의 로그인 시스템을 연동.
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/SSO.png" alt="Placeholder"/>
  	<figcaption>SSO을 통한 로그인 인터페이스</figcaption>
@@ -46,13 +46,13 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
  	<figcaption>SSO을 통한 로그인 구현</figcaption>
 </figure>
 
-메인화면은 기본적인 저작도구 화면으로 레이아웃을 잡았습니다. 하단의 메뉴와 속성창은 JqueryUI을 이용하여 구현
+메인화면은 기본적인 저작도구 화면으로 레이아웃 구성. 하단의 메뉴와 속성창은 JqueryUI을 이용하여 구현.
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/main.png" alt="Placeholder"/>
  	<figcaption>매인화면</figcaption>
 </figure>
 
-새로만들기, 불러오기를 통해 DB에서 데이터를 불러오면 zTree을 통해서 트리구조의 메뉴를 생성, 윈도우 생성을 통해 AR 저작도구에서 사용할 ARS 객체 생성
+새로만들기, 불러오기를 통해 DB에서 데이터를 불러오면 zTree을 통해서 트리구조의 메뉴를 생성.
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/load.png" alt="Placeholder"/>
  	<figcaption>새로만들기, 불러오기</figcaption>
@@ -62,7 +62,7 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
  	<figcaption>콘텐츠 환경 설정하기</figcaption>
 </figure>
 
-Fabricjs 을 이용한 저작도구 기능 구현
+Fabricjs 을 이용한 저작도구 기능 구현.
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/make.png" alt="Placeholder"/>
  	<figcaption>콘텐츠 만들기</figcaption>
@@ -85,7 +85,7 @@ Fabricjs 을 이용한 저작도구 기능 구현
  	
 </figure>
 
-파일압축, 다운로드, ftp 파일 전송을 통한 배포하기 구현 
+파일압축, 다운로드, ftp 파일 전송을 통한 배포하기 구현 .
 <figure>
 	<img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="Placeholder"/>
  	<figcaption>AR미리보기</figcaption>
