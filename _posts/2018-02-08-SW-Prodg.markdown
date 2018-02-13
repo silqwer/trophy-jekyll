@@ -1,28 +1,35 @@
 ---
 layout: post
-title: "SW Prodg"
+title: "알기쉬운 코딩:피지컬 컴퓨팅"
 date: 2018-02-08
 categories:
   - Portfolio
-description: 웨러블 디바이스와 AR기술을 활용하는 지식서비스 시스탬 개발, AR 저작도구 
+description: 엔트리 등 교육용 프로그래밍 언어(EPL)을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩 : 피지컬 컴퓨팅
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
 
-시나리오 제작도구는 재난상황별 시나리오에 따른 재난안전체험 연출을 위하여 시나리
-오 저작 도구를 제공하는 방법에 관한 것으로, 보다 상세하게는 재난안전체험을 씬
-단위, 서브 씬 단위, 클립 단위로 분류하고, 클립 단위별 무대 연출에 따른 체험
-동선을 시나리오에 적용 가능하도록 제공하는 저작도구입니다. 
+CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Programing Language)를 활용한 프로그래밍한 결과를 가상공간에서 3D 시뮬레이션해 볼 수 있으며 VR 기기를 활용해 코딩한 결과를 가상현실로 체험해 볼 수 있습니다.
 
-<h3>주요기능</h3>
-<ol>
-  <li>Spring Security을 이용한 로그인</li>
-  <li>Church-key crucifix messenger bag health goth</li>
-  <li>Try-hard artisan direct trade</li>
-  <li>Cold-pressed selfies</li>
-</ol>
+
+<h3>구현기능</h3>
+<ul>
+  <li>spring security 을 통한 로그인, SSL, CSRF 처리</li>
+  <li>lucy-xss-servlet-filter 을 이용한 웹 취약점 처리</li>
+  <li>javax.mail 라이브러리를 이용한 메일 발송</li>
+  <li>이미지 파일 변조 방지 처리</li>
+  <li>json data 통신 API</li>
+</ul>
 
 <figure>
   <img src="https://unsplash.it/2000/1200?image=1003" alt="Placeholder"/>
 </figure>
+
+<h3>주요기능</h3>
+<ol>
+  <li>템플릿 관리, 사용자 작업물 관리</li>
+  <li>Unity Web Player 연동</li>
+  <li>QRCORD를 통한 사용자 앱 연동</li>
+</ol>
+
 
