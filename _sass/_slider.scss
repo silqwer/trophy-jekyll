@@ -16,6 +16,11 @@
 
 #slides .slidesjs-navigation {
   margin-top:5px;
+  border-bottom: none;
+}
+
+.slidesjs-pagination-item a {
+  border-bottom: none;
 }
 
 a.slidesjs-next,
