@@ -26,7 +26,7 @@ image-sm: /../assets/img/sw/sw17.png
      	<img src="{{ site.url }}/assets/img/sw/sw15.png" alt="13">
      	<img src="{{ site.url }}/assets/img/sw/sw16.png" alt="14">
      	<img src="{{ site.url }}/assets/img/sw/sw17.png" alt="15"> 
-     	<img src="{{ site.url }}/assets/img/sw/sw18.png" alt="15">
+     	<img src="{{ site.url }}/assets/img/sw/sw18.png" alt="16">
 	</div>
 </div>
 
@@ -46,6 +46,7 @@ image-sm: /../assets/img/sw/sw17.png
       	});
     });
 </script>
+
 CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Programing Language)를 활용한 프로그래밍한 결과를 가상공간에서 3D 시뮬레이션해 볼 수 있으며 VR 기기를 활용해 코딩한 결과를 가상현실로 체험해 볼 수 있는 교육용 웹 사이트.
 
 <ul>
