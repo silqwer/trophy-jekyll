@@ -59,7 +59,6 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 
 웹 시스템에 등록된 지식DB를 이용하여 콘텐츠를 구성할 객체, 마커 및 정보를 선택하여 스마트글라스 사용자에게 제공할 지식 콘텐츠를 저작할 수 있는 기능을 제공하고, 사용자 앱에서 제공하는 AR Viewer를 통해 텍스트, 이미지 또는 3D 실물인식 등의 라이브러리를 통하여 저작한 AR콘텐츠의 미리보기를 제공하는 저작도구 입니다.  
 
-<h3>구현기능</h3>
 <ul>
   <li>http 통신을 통한 SSO(Single sign-on) 연동</li>
   <li>ztree를 이용한 탐색메뉴 구현</li>
@@ -68,30 +67,6 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
   <li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
   <li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
 </ul>
-
-<figure>
-  <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="Placeholder"/>
-  <figcaption>AR Studio 저작화면</figcaption>
-</figure>
-
-<h3>AR 저작도구 주요기능</h3>
-<ol>
-  <li>객체-마커 탐색</li>
-  <li>마커에 연결된 정보 리스트 제공</li>
-  <li>콘텐츠(정보제공, 네비게이션 및 정비 등) 저작기능 제공</li>
-  <li>새로만들기, 불러오기 및 저장하기</li>
-  <li>SVG, JSON, PNG 내보내기</li>
-  <li>배포를 통하여 S/G로 내려주기</li>
-</ol>
-
-<h3>화면설명</h3>
-로그인은  자체 SSO(Single sign-on)을 구현하여  To21의 지식시스템과 AR Studio의 로그인 시스템을 연동.
-<figure>
-	<img src="{{ site.url }}/assets/img/ar/SSO.png" alt="Placeholder"/>
- 	<figcaption>SSO을 통한 로그인 인터페이스</figcaption>
-
-</figure>
-
 
 <h3>시연영상</h3>
 <ol>
