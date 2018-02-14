@@ -8,13 +8,56 @@ description: 하이브리드 웹 앱 문제풀이, 패스빌
 image: https://unsplash.it/2000/1200?image=1003
 image-sm: https://unsplash.it/500/300?image=1003
 ---
+
+<div class="container">
+	<div id="slides">
+		<img src="{{ site.url }}/assets/img/pass/img.png" alt="1">
+		<img src="{{ site.url }}/assets/img/pass/img2.png" alt="2">
+		<img src="{{ site.url }}/assets/img/pass/img3.png" alt="3">
+		<img src="{{ site.url }}/assets/img/pass/img4.png" alt="4">
+		<img src="{{ site.url }}/assets/img/pass/img5.png" alt="5">
+		<img src="{{ site.url }}/assets/img/pass/img6.png" alt="6">
+		<img src="{{ site.url }}/assets/img/pass/img7.png" alt="7">
+		<img src="{{ site.url }}/assets/img/pass/img8.png" alt="8">
+		<img src="{{ site.url }}/assets/img/pass/img9.png" alt="9">
+		<img src="{{ site.url }}/assets/img/pass/img10.png" alt="10">
+		<img src="{{ site.url }}/assets/img/pass/img11.png" alt="11">
+		<img src="{{ site.url }}/assets/img/pass/img12.png" alt="12">
+		<img src="{{ site.url }}/assets/img/pass/img13.png" alt="13">
+		<img src="{{ site.url }}/assets/img/pass/img14.png" alt="14">
+		<img src="{{ site.url }}/assets/img/pass/img15.png" alt="15">
+		<img src="{{ site.url }}/assets/img/pass/img16.png" alt="16">
+		<img src="{{ site.url }}/assets/img/pass/img17.png" alt="17">
+		<img src="{{ site.url }}/assets/img/pass/img18.png" alt="18">
+		<img src="{{ site.url }}/assets/img/pass/img19.png" alt="19">
+		<img src="{{ site.url }}/assets/img/pass/img20.png" alt="20">
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="{{ site.url }}/assets/slider/js/jquery.slides.min.js"></script>
+<script>
+	$(function() {
+		$('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+        		active: true,
+          		auto: true,
+          		interval: 1000,
+          		swap: true
+        	}
+      	});
+    });
+</script>
+
 자격증 문제풀이 앱 패스빌 
 
 <h3>구현기능</h3>
 <ol>
-  <li>bootst</li>
-  <li>fabricjs 를 이용한 저작도구 구현</li>
-  <li>word 문서 다운로드 구현</li>
+  <li>문제풀이</li>
+  <li>모의고사</li>
+  <li>오답노트</li>
   <li>json data 통신 api 구현</li>
 </ol>
 
@@ -22,10 +65,9 @@ image-sm: https://unsplash.it/500/300?image=1003
   <img src="{{ site.url }}/assets/img/sno/export.png" alt="Placeholder"/>
 </figure>
 
-<h3>시연영상</h3>
-<ol>
-  <li>Passville
-  	<iframe src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
+<figure>
+	<iframe src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
  	<figcaption>패스빌(Passville) 구동</figcaption>   
-  </li>
+</figure>
+
 </ol>
