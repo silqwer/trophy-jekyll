@@ -4,7 +4,7 @@ title: "알기쉬운 코딩:피지컬 컴퓨팅"
 date: 2018-02-08
 categories:
   - Portfolio
-description: 교육용 프로그래밍 언어(EPL)을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩 : 피지컬 컴퓨팅
+description: EPL 을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩, 피지컬 컴퓨팅
 image: /../assets/img/sw/sw17.png
 image-sm: /../assets/img/sw/sw17.png
 ---
@@ -55,8 +55,8 @@ CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Pro
 </ul>
 
 <figure>
-	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
- 	<figcaption>SSO을 통한 로그인</figcaption>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/w9Am9mPuPxQ" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+ 	<figcaption>알기쉬운 코딩: 피지컬 컴퓨팅</figcaption>
 </figure>
 
 <figure>
