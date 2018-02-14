@@ -55,7 +55,7 @@ CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Pro
 </ul>
 
 <figure>
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/w9Am9mPuPxQ" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/w9Am9mPuPxQ" frameborder="0" 	allowfullscreen></iframe>
  	<figcaption>알기쉬운 코딩: 피지컬 컴퓨팅</figcaption>
 </figure>
 
