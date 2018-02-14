@@ -29,8 +29,6 @@ image-sm: https://unsplash.it/500/300?image=1003
 		<img src="{{ site.url }}/assets/img/pass/img16.png" alt="16">
 		<img src="{{ site.url }}/assets/img/pass/img17.png" alt="17">
 		<img src="{{ site.url }}/assets/img/pass/img18.png" alt="18">
-		<img src="{{ site.url }}/assets/img/pass/img19.png" alt="19">
-		<img src="{{ site.url }}/assets/img/pass/img20.png" alt="20">
 	</div>
 </div>
 
