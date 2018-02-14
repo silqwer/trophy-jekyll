@@ -9,63 +9,52 @@ image:  /../assets/img/ar/arCntentsPreview.png
 image-sm: /../assets/img/ar/arCntentsPreview.png
 ---
 
-<!-- SlidesJS Required: Start Slides -->
-  <!-- The container is used to define the width of the slideshow 16-->
-  <div class="container">
-    <div id="slides">
-      <img src="{{ site.url }}/assets/img/ar/login.png" alt="1">
-      <img src="{{ site.url }}/assets/img/ar/main.png" alt="2">
-      <img src="{{ site.url }}/assets/img/ar/load.png" alt="3">
-      <img src="{{ site.url }}/assets/img/ar/setting.png" alt="4">
-      <img src="{{ site.url }}/assets/img/ar/make.png" alt="5">
-      <img src="{{ site.url }}/assets/img/ar/preview.png" alt="6">
-      <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="7">
-      <img src="{{ site.url }}/assets/img/ar/downloadMenu.png" alt="8">
-      <img src="{{ site.url }}/assets/img/ar/export.png" alt="9">
-      <img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="10">
-      <img src="{{ site.url }}/assets/img/ar/imgExport.png" alt="11">
-      <img src="{{ site.url }}/assets/img/ar/jsonExport.png" alt="12">
-      <img src="{{ site.url }}/assets/img/ar/download1.png" alt="13">
-      <img src="{{ site.url }}/assets/img/ar/download2.png" alt="14">
-      <img src="{{ site.url }}/assets/img/ar/svgExport.png" alt="15">
-    </div>
-  </div>
-  <!-- End SlidesJS Required: Start Slides -->
+<div class="container">
+	<div id="slides">
+		<img src="{{ site.url }}/assets/img/ar/login.png" alt="1">
+      	<img src="{{ site.url }}/assets/img/ar/main.png" alt="2">
+      	<img src="{{ site.url }}/assets/img/ar/load.png" alt="3">
+      	<img src="{{ site.url }}/assets/img/ar/setting.png" alt="4">
+      	<img src="{{ site.url }}/assets/img/ar/make.png" alt="5">
+      	<img src="{{ site.url }}/assets/img/ar/preview.png" alt="6">
+      	<img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="7">
+      	<img src="{{ site.url }}/assets/img/ar/downloadMenu.png" alt="8">
+      	<img src="{{ site.url }}/assets/img/ar/export.png" alt="9">
+      	<img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="10">
+      	<img src="{{ site.url }}/assets/img/ar/imgExport.png" alt="11">
+      	<img src="{{ site.url }}/assets/img/ar/jsonExport.png" alt="12">
+      	<img src="{{ site.url }}/assets/img/ar/download1.png" alt="13">
+      	<img src="{{ site.url }}/assets/img/ar/download2.png" alt="14">
+      	<img src="{{ site.url }}/assets/img/ar/svgExport.png" alt="15">
+	</div>
+</div>
 
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="{{ site.url }}/assets/slider/js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="{{ site.url }}/assets/slider/js/jquery.slides.min.js"></script>
+<script>
+	$(function() {
+		$('#slides').slidesjs({
         width: 940,
         height: 528,
         play: {
-          active: true,
-          auto: true,
-          interval: 1000,
-          swap: true
-        }
-      });
+        		active: true,
+          		auto: true,
+          		interval: 1000,
+          		swap: true
+        	}
+      	});
     });
-  </script>
-
+</script>
 
 웹 시스템에 등록된 지식DB를 이용하여 콘텐츠를 구성할 객체, 마커 및 정보를 선택하여 스마트글라스 사용자에게 제공할 지식 콘텐츠를 저작할 수 있는 기능을 제공하고, 사용자 앱에서 제공하는 AR Viewer를 통해 텍스트, 이미지 또는 3D 실물인식 등의 라이브러리를 통하여 저작한 AR콘텐츠의 미리보기를 제공하는 저작도구 입니다.  
 
 <ul>
-  <li>http 통신을 통한 SSO(Single sign-on) 연동</li>
-  <li>ztree를 이용한 탐색메뉴 구현</li>
-  <li>jqueryui를 이용한 윈도우 최소화 최대화, 탭메뉴, 드래그앤드롭</li>
-  <li>fabricjs이용한 저작도구 구현(svg, png, json)</li>
-  <li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
-  <li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
+	<li>http 통신을 통한 SSO(Single sign-on) 연동</li>
+  	<li>ztree를 이용한 탐색메뉴 구현</li>
+  	<li>jqueryui를 이용한 윈도우 최소화 최대화, 탭메뉴, 드래그앤드롭</li>
+  	<li>fabricjs이용한 저작도구 구현(svg, png, json)</li>
+  	<li>java.util.zip.ZipOutputStream 을 이용한 파일압축</li>
+  	<li>org.apache.commons.net.ftp.FTP 을 이용한 ftp 파일 업로드</li>
 </ul>
 
 <figure>

@@ -4,32 +4,64 @@ title: "알기쉬운 코딩:피지컬 컴퓨팅"
 date: 2018-02-08
 categories:
   - Portfolio
-description: 엔트리 등 교육용 프로그래밍 언어(EPL)을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩 : 피지컬 컴퓨팅
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+description: 교육용 프로그래밍 언어(EPL)을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩 : 피지컬 컴퓨팅
+image: /../assets/img/sw/sw17.png
+image-sm: /../assets/img/sw/sw17.png
 ---
+<div class="container">
+	<div id="slides">
+		<img src="{{ site.url }}/assets/img/sw/sw3.png" alt="1">
+     	<img src="{{ site.url }}/assets/img/sw/sw4.png" alt="2">
+     	<img src="{{ site.url }}/assets/img/sw/sw5.png" alt="3">
+     	<img src="{{ site.url }}/assets/img/sw/sw6.png" alt="4">
+     	<img src="{{ site.url }}/assets/img/sw/sw7.png" alt="5">
+     	<img src="{{ site.url }}/assets/img/sw/sw8.png" alt="6">
+     	<img src="{{ site.url }}/assets/img/sw/sw9.png" alt="7">
+     	<img src="{{ site.url }}/assets/img/sw/sw10.png" alt="8">
+     	<img src="{{ site.url }}/assets/img/sw/sw11.png" alt="9">
+     	<img src="{{ site.url }}/assets/img/sw/sw12.png" alt="10">
+     	<img src="{{ site.url }}/assets/img/sw/sw13.png" alt="11">
+     	<img src="{{ site.url }}/assets/img/sw/sw14.png" alt="12">
+     	<img src="{{ site.url }}/assets/img/sw/sw15.png" alt="13">
+     	<img src="{{ site.url }}/assets/img/sw/sw16.png" alt="14">
+     	<img src="{{ site.url }}/assets/img/sw/sw17.png" alt="15"> 
+	</div>
+</div>
 
-CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Programing Language)를 활용한 프로그래밍한 결과를 가상공간에서 3D 시뮬레이션해 볼 수 있으며 VR 기기를 활용해 코딩한 결과를 가상현실로 체험해 볼 수 있습니다.
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="{{ site.url }}/assets/slider/js/jquery.slides.min.js"></script>
+<script>
+	$(function() {
+		$('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+        		active: true,
+          		auto: true,
+          		interval: 1000,
+          		swap: true
+        	}
+      	});
+    });
+</script>
+CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Programing Language)를 활용한 프로그래밍한 결과를 가상공간에서 3D 시뮬레이션해 볼 수 있으며 VR 기기를 활용해 코딩한 결과를 가상현실로 체험해 볼 수 있는 교육용 웹 사이트.
 
-
-<h3>구현기능</h3>
 <ul>
-  <li>spring security 을 통한 로그인, SSL, CSRF 처리</li>
-  <li>lucy-xss-servlet-filter 을 이용한 웹 취약점 처리</li>
-  <li>javax.mail 라이브러리를 이용한 메일 발송</li>
-  <li>이미지 파일 변조 방지 처리</li>
-  <li>json data 통신 API</li>
+	<li>spring security 을 통한 로그인, SSL, CSRF 처리</li>
+  	<li>lucy-xss-servlet-filter 을 이용한 웹 취약점 처리</li>
+  	<li>javax.mail 라이브러리를 이용한 메일 발송</li>
+  	<li>이미지 파일 변조 방지 처리</li>
+  	<li>json data 통신 API</li>
 </ul>
 
 <figure>
-  <img src="https://unsplash.it/2000/1200?image=1003" alt="Placeholder"/>
+	<iframe width="420" height="315" src="https://www.youtube.com/embed/kTfG6BMFyrQ" frameborder="0" allowfullscreen></iframe>
+ 	<figcaption>SSO을 통한 로그인</figcaption>
 </figure>
 
-<h3>주요기능</h3>
-<ol>
-  <li>템플릿 관리, 사용자 작업물 관리</li>
-  <li>Unity Web Player 연동</li>
-  <li>QRCORD를 통한 사용자 앱 연동</li>
-</ol>
+<figure>
+	<iframe width="420" height="315" src="https://www.youtube.com/embed/LBPEEe_pCTE" frameborder="0" allowfullscreen></iframe>
+ 	<figcaption>AR Studio 저작</figcaption>
+</figure>
 
 
