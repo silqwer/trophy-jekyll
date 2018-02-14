@@ -14,7 +14,7 @@ default_img:
 
 # Profile settings
 name: KimYongHo
-profile_img: /../assets/img/profile/me.png 
+profile_img:
 profile: 안녕하세요. 김용호 입니다.
 social: https://www.facebook.com/yongho.kim.58
 github: https://github.com/silqwer
