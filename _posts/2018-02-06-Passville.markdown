@@ -64,4 +64,3 @@ image-sm: /../assets/img/pass/img4.png
  	<figcaption>패스빌(Passville) 구동</figcaption>   
 </figure>
 
-</ol>
