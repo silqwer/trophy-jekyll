@@ -10,13 +10,24 @@ image-sm: /../assets/img/ar/arCntentsPreview.png
 ---
 
 <!-- SlidesJS Required: Start Slides -->
-  <!-- The container is used to define the width of the slideshow -->
+  <!-- The container is used to define the width of the slideshow 16-->
   <div class="container">
     <div id="slides">
-      <img src="{{ site.url }}/assets/slider/img/example-slide-1.jpg" alt="Photo by: 1">
-      <img src="{{ site.url }}/assets/slider/img/example-slide-2.jpg" alt="Photo by: 2">
-      <img src="{{ site.url }}/assets/slider/img/example-slide-3.jpg" alt="Photo by: 3">
-      <img src="{{ site.url }}/assets/slider/img/example-slide-4.jpg" alt="Photo by: 4">
+      <img src="{{ site.url }}/assets/img/ar/login.png" alt="1">
+      <img src="{{ site.url }}/assets/img/ar/main.png" alt="2">
+      <img src="{{ site.url }}/assets/img/ar/load.png" alt="3">
+      <img src="{{ site.url }}/assets/img/ar/setting.png" alt="4">
+      <img src="{{ site.url }}/assets/img/ar/make.png" alt="5">
+      <img src="{{ site.url }}/assets/img/ar/preview.png" alt="6">
+      <img src="{{ site.url }}/assets/img/ar/arCntentsPreview.png" alt="7">
+      <img src="{{ site.url }}/assets/img/ar/downloadMenu.png" alt="8">
+      <img src="{{ site.url }}/assets/img/ar/export.png" alt="9">
+      <img src="{{ site.url }}/assets/img/ar/exportPreview.png" alt="10">
+      <img src="{{ site.url }}/assets/img/ar/imgExport.png" alt="11">
+      <img src="{{ site.url }}/assets/img/ar/jsonExport.png" alt="12">
+      <img src="{{ site.url }}/assets/img/ar/download1.png" alt="13">
+      <img src="{{ site.url }}/assets/img/ar/download2.png" alt="14">
+      <img src="{{ site.url }}/assets/img/ar/svgExport.png" alt="15">
     </div>
   </div>
   <!-- End SlidesJS Required: Start Slides -->
