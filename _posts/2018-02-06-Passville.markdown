@@ -56,15 +56,10 @@ image-sm: https://unsplash.it/500/300?image=1003
   <li>문제풀이</li>
   <li>모의고사</li>
   <li>오답노트</li>
-  <li>json data 통신 api 구현</li>
 </ol>
 
 <figure>
-  <img src="{{ site.url }}/assets/img/sno/export.png" alt="Placeholder"/>
-</figure>
-
-<figure>
-	<iframe src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
+	<iframe width="420" height="315" src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
  	<figcaption>패스빌(Passville) 구동</figcaption>   
 </figure>
 
