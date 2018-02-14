@@ -5,8 +5,8 @@ date: 2018-02-06
 categories:
   - Portfolio
 description: 하이브리드 웹 앱 문제풀이, 패스빌 
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+image: /../assets/img/pass/img4.png
+image-sm: /../assets/img/pass/img4.png
 ---
 
 <div class="container">
@@ -56,6 +56,7 @@ image-sm: https://unsplash.it/500/300?image=1003
   <li>문제풀이</li>
   <li>모의고사</li>
   <li>오답노트</li>
+  <li>문자발송 연동</li>
 </ol>
 
 <figure>
