@@ -8,6 +8,7 @@ description: EPL 을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩, 
 image: /../assets/img/sw/sw17.png
 image-sm: /../assets/img/sw/sw17.png
 ---
+
 <div class="container">
 	<div id="slides">
 		<img src="{{ site.url }}/assets/img/sw/sw3.png" alt="1">
@@ -25,6 +26,7 @@ image-sm: /../assets/img/sw/sw17.png
      	<img src="{{ site.url }}/assets/img/sw/sw15.png" alt="13">
      	<img src="{{ site.url }}/assets/img/sw/sw16.png" alt="14">
      	<img src="{{ site.url }}/assets/img/sw/sw17.png" alt="15"> 
+     	<img src="{{ site.url }}/assets/img/sw/sw18.png" alt="15">
 	</div>
 </div>
 
@@ -55,12 +57,12 @@ CT 기반 언플러그드, 교육용 프로그래밍 언어(EPL; Educational Pro
 </ul>
 
 <figure>
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/w9Am9mPuPxQ" frameborder="0" 	allowfullscreen></iframe>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/w9Am9mPuPxQ" frameborder="0" allowfullscreen></iframe>
  	<figcaption>알기쉬운 코딩: 피지컬 컴퓨팅</figcaption>
 </figure>
 
 <figure>
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/rC-NrdkYRGA" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/rC-NrdkYRGA" frameborder="0" allowfullscreen></iframe>
  	<figcaption>SW Prodg app 연동</figcaption>
 </figure>
 
