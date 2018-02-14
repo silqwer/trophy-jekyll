@@ -37,8 +37,8 @@ image-sm: https://unsplash.it/500/300?image=1003
 <script>
 	$(function() {
 		$('#slides').slidesjs({
-        width: 940,
-        height: 528,
+        width: 388,
+        height: 585,
         play: {
         		active: true,
           		auto: true,
@@ -59,7 +59,7 @@ image-sm: https://unsplash.it/500/300?image=1003
 </ol>
 
 <figure>
-	<iframe width="420" height="315" src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
+	<iframe width="388" height="585" src="https://www.youtube.com/embed/x79gUNFlBBE" frameborder="0" allowfullscreen></iframe>
  	<figcaption>패스빌(Passville) 구동</figcaption>   
 </figure>
 
