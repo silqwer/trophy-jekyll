@@ -15,7 +15,10 @@ default_img:
 # Profile settings
 name: KimYongHo
 profile_img: /assets/img/profile/me.png
-profile: 안녕하세요. 김용호 입니다.
+profile: 4년 차 웹 개발자로 서버사이드 개발 및 프론트엔트 개발에서 다양한 경험이 있습니다. 
+java, Spring Framework, javaScript, git, svn, MySQL, Oracle 등의 기술을 사용해서 
+서비스를 개발하고 및 유지보수한 경험이 있으며 항상 개발 프로세서와 개발 문화를
+개선하려 노력하고 있습니다.
 social: https://www.facebook.com/yongho.kim.58
 github: https://github.com/silqwer
 
