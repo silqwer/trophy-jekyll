@@ -37,8 +37,6 @@ image-sm: /../assets/img/pass/img4.png
 <script>
 	$(function() {
 		$('#slides').slidesjs({
-        width: 388,
-        height: 585,
         play: {
         		active: true,
           		auto: true,
