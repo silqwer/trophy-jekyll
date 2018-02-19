@@ -35,7 +35,7 @@ image-sm: /../assets/img/sw/sw17.png
 <script>
 	$(function() {
 		$('#slides').slidesjs({
-        width: 100%,
+        width: 100%
         play: {
         		active: true,
           		auto: true,
