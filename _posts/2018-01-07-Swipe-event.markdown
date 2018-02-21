@@ -42,7 +42,7 @@ $(document).ready(function(){
 </script>
 <style>
 	#background{
-		width: 50%;
+		width: 100%;
 		height: 500px;
 		background-color: antiquewhite;
 	}
