@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Passville"
-date: 2018-02-06
+title: "Mouse wheel event test"
+date: 2018-01-06
 categories:
   - Test
 description: 마우스 휠 이벤트 테스트  
@@ -82,4 +82,4 @@ document.addEventListener("DOMContentLoaded", function(){
 	<div id="btn3" class="btn"></div>
 </div>
 
-<h1 id="result">스크롤을 해주세요.</h2>
+<h1 id="result">스크롤을 해주세요.</h1>
