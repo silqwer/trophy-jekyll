@@ -58,8 +58,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	width: 250px;
     height: 50px;
     background-color: gray;
-    position: absolute;
-    top: 360px;
+    position: relative;
     left: 135px;
 }
 
