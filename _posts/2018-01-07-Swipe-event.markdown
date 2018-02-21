@@ -42,17 +42,17 @@ $(document).ready(function(){
 </script>
 <style>
 	#background{
-		width: 500px;
+		width: 50%;
 		height: 500px;
 		background-color: antiquewhite;
 	}
 
 	.btn{
-		width: 250px;
+		width: 50%;
 		height: 50px;
 		background-color: gray;
 		position: relative;
-		left: 135px;
+		left: 120px;
 	}
 
 	#btn1{
