@@ -163,4 +163,4 @@ image-sm: /../assets/img/test/background.png
 </script>
 
 <object id="svgObj" width="800" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
-<h1 id="result">스와이프를 해주세요.</1>
+<h1 id="result">스와이프를 해주세요.</h1>
