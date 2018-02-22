@@ -1,0 +1,105 @@
+---
+layout: post
+title: "Html svg evnet test"
+date: 2018-01-05
+categories:
+  - Test
+description: HTML SVG 이벤트 테스트  
+image: /../assets/img/pass/img4.png
+image-sm: /../assets/img/pass/img4.png
+---
+<script>
+	var arr = [
+		'btn1',
+		'btn2',
+		'btn3'
+	];
+	
+	var arrIdx = 0; 
+	$( window ).on( "load", function() {
+		var object  = document.getElementById("svgObj");
+		console.log(object);
+		var svgDoc = object.contentDocument;
+		var background = svgDoc.getElementById("background");
+		console.log(background);
+		
+		background.setAttribute("fill", "yellow");
+		
+		background.addEventListener("click", function(){
+			$('body').append('<p>마우스 클릭</p>');
+		});
+		
+		background.addEventListener("mousemove", function(){
+			console.log('mouse move');
+			$('body').append('<p>마우스 움직임</p>');
+		});
+		
+		background.addEventListener("SVGScroll", function(){
+			console.log('SVGScroll');
+			$('body').append('<p>마우스 스크롤</p>');
+		});
+		/*
+		background.on( "swipeleft", function(){
+			console.log('왼쪽 감소');
+			if(arrIdx > 0)
+				--arrIdx; 
+			
+			var btn = svgDoc.getElementById(arr[arrIdx]);
+			var btns = svgDoc.getElementsByClassName("btn");
+			colorChange(btns, btn);
+		});
+		
+		background.on( "swiperight", function(){
+			console.log('오른쪽 증가');
+			if(arr.length-1 > arrIdx)
+				++arrIdx; 
+				
+			var btn = svgDoc.getElementById(arr[arrIdx]);
+			var btns = svgDoc.getElementsByClassName("btn");
+			colorChange(btns, btn);	
+		});
+		*/
+	});
+	
+	function colorChange(btnsObj, btnObj){
+		btnsObj.css('background-color', 'gray');
+		btnObj.css('background-color', 'red');
+	}
+	
+</script>
+<style>
+	#background{
+		width: 50%;
+		height: 500px;
+		background-color: antiquewhite;
+	}
+
+	.btn{
+		width: 50%;
+		height: 50px;
+		background-color: gray;
+		position: relative;
+		left: 120px;
+	}
+
+	#btn1{
+		top: 100px;
+	}
+
+	#btn2{
+		top: 200px;
+	}
+
+	#btn3{
+		top: 300px;
+	}
+</style>
+
+<div id="background">
+	<div id="btn1" class="btn"></div>
+	<div id="btn2" class="btn"></div>
+	<div id="btn3" class="btn"></div>
+</div>
+
+<object id="svgObj" width="800" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
+	
