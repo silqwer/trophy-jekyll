@@ -4,9 +4,9 @@ title: "Swipe event test"
 date: 2018-01-07
 categories:
   - Test
-description: Jquery mobile swipe 이벤트 테스트  
-image: /../assets/img/pass/img4.png
-image-sm: /../assets/img/pass/img4.png
+description: Jquery mobile swipe event test
+image: /../assets/img/test/backgound.png
+image-sm: /../assets/img/test/backgound.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

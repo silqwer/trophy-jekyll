@@ -4,9 +4,9 @@ title: "Mouse wheel event test"
 date: 2018-01-06
 categories:
   - Test
-description: 마우스 휠 이벤트 테스트  
-image: /../assets/img/pass/img4.png
-image-sm: /../assets/img/pass/img4.png
+description: mouse wheel event test 
+image: /../assets/img/test/backgound.png
+image-sm: /../assets/img/test/backgound.png
 ---
 
 <script>
