@@ -30,39 +30,23 @@ image-sm: /../assets/img/pass/img4.png
 		background.setAttribute("fill", "yellow");
 		
 		background.addEventListener("click", function(){
+			console.log('mouse move');
 			$('body').append('<p>마우스 클릭</p>');
+			alert('클릭');
 		});
 		
 		background.addEventListener("mousemove", function(){
 			console.log('mouse move');
 			$('body').append('<p>마우스 움직임</p>');
+			alert('움직임');
 		});
 		
 		background.addEventListener("SVGScroll", function(){
 			console.log('SVGScroll');
 			$('body').append('<p>마우스 스크롤</p>');
-		});
-		/*
-		background.on( "swipeleft", function(){
-			console.log('왼쪽 감소');
-			if(arrIdx > 0)
-				--arrIdx; 
-			
-			var btn = svgDoc.getElementById(arr[arrIdx]);
-			var btns = svgDoc.getElementsByClassName("btn");
-			colorChange(btns, btn);
+			alert('스크롤');
 		});
 		
-		background.on( "swiperight", function(){
-			console.log('오른쪽 증가');
-			if(arr.length-1 > arrIdx)
-				++arrIdx; 
-				
-			var btn = svgDoc.getElementById(arr[arrIdx]);
-			var btns = svgDoc.getElementsByClassName("btn");
-			colorChange(btns, btn);	
-		});
-		*/
 	});
 	
 	function colorChange(btnsObj, btnObj){
