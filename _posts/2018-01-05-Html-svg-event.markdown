@@ -99,11 +99,5 @@ image-sm: /../assets/img/pass/img4.png
 	}
 </style>
 
-<div id="background">
-	<div id="btn1" class="btn"></div>
-	<div id="btn2" class="btn"></div>
-	<div id="btn3" class="btn"></div>
-</div>
-
 <object id="svgObj" width="800" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
 	
