@@ -5,8 +5,8 @@ date: 2018-01-05
 categories:
   - Test
 description: Html svg event test  
-image: /../assets/img/test/backgound.png
-image-sm: /../assets/img/test/backgound.png
+image: /../assets/img/test/background.png
+image-sm: /../assets/img/test/background.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

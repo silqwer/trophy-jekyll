@@ -5,8 +5,8 @@ date: 2018-01-06
 categories:
   - Test
 description: mouse wheel event test 
-image: /../assets/img/test/backgound.png
-image-sm: /../assets/img/test/backgound.png
+image: /../assets/img/test/background.png
+image-sm: /../assets/img/test/background.png
 ---
 
 <script>

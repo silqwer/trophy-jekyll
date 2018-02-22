@@ -5,8 +5,8 @@ date: 2018-01-08
 categories:
   - Test
 description: Html in svg event test  
-image: /../assets/img/test/backgound.png
-image-sm: /../assets/img/test/backgound.png
+image: /../assets/img/test/background.png
+image-sm: /../assets/img/test/background.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -163,4 +163,4 @@ image-sm: /../assets/img/test/backgound.png
 </script>
 
 <object id="svgObj" width="800" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
-<h1 id="result">스와이프를 해주세요.</h2>
+<h1 id="result">스와이프를 해주세요.</1>
