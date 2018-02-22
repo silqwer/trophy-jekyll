@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", function(){
 </script>
 <style>
 #background{
-	width: 500px;
+	width: 100%;
     height: 500px;
     background-color: antiquewhite;
 }
 
 .btn{
-	width: 250px;
+	width: 50%;
     height: 50px;
     background-color: gray;
     position: relative;
