@@ -8,6 +8,10 @@ description: HTML SVG 이벤트 테스트
 image: /../assets/img/pass/img4.png
 image-sm: /../assets/img/pass/img4.png
 ---
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+
 <script>
 	var arr = [
 		'btn1',
