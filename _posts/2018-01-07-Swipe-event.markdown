@@ -4,7 +4,7 @@ title: "Swipe event test"
 date: 2018-01-07
 categories:
   - Test
-description: Jquery mobile swipe event test
+description: SVG file에 jquery.mobile을 넣고 swipe 함수가 동작하는지 확인하는 테스트
 image: /../assets/img/test/background.png
 image-sm: /../assets/img/test/background.png
 ---

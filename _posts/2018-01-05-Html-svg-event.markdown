@@ -4,7 +4,7 @@ title: "Html svg evnet test"
 date: 2018-01-05
 categories:
   - Test
-description: Html svg event test  
+description: Html으로 불러온 svg에서 svg관련 event가 동작하는지 테스트  
 image: /../assets/img/test/background.png
 image-sm: /../assets/img/test/background.png
 ---
@@ -83,5 +83,5 @@ image-sm: /../assets/img/test/background.png
 	}
 </style>
 
-<object id="svgObj" width="800" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
+<object id="svgObj" width="100%" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
 	

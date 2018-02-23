@@ -4,7 +4,7 @@ title: "Mouse wheel event test"
 date: 2018-01-06
 categories:
   - Test
-description: mouse wheel event test 
+description: 마우스 휠 이벤트 입력 테스트 
 image: /../assets/img/test/background.png
 image-sm: /../assets/img/test/background.png
 ---

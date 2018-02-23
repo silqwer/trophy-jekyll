@@ -4,7 +4,7 @@ title: "Html in svg evnet test"
 date: 2018-01-08
 categories:
   - Test
-description: Html in svg event test  
+description: SVG 이벤트 touchstart와 touchend 를 이용해 만든 swpie 함수 테스트 
 image: /../assets/img/test/background.png
 image-sm: /../assets/img/test/background.png
 ---
