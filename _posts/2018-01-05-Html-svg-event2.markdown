@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Html svg evnet test"
+title: ""
 date: 2018-01-05
 categories:
   - Test
