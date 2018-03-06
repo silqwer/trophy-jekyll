@@ -3,7 +3,7 @@ layout: post
 title: "Html svg evnet test"
 date: 2018-01-05
 categories:
-  - Test
+  - test
 description: Html으로 불러온 svg에서 svg관련 event가 동작하는지 테스트  
 image: /../assets/img/test/background.png
 image-sm: /../assets/img/test/background.png
