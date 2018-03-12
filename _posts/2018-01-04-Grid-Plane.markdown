@@ -16,7 +16,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <script src="{{ site.url }}/assets/threejs/js/controls/TransformControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/controls/OrbitControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/libs/dat.gui.min.js"></script>
-<div id="threejsView" style="width:90%; height:300px;"></div>
+<div id="threejsView" style="width:90%; height:400px;"></div>
 <script type="text/javascript">
 	if(!Detector.webgl){
 		Detector.addGetWebGLMessage();
@@ -90,7 +90,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		//랜더러
 		renderer = new THREE.WebGLRenderer({antialias:true});
 		renderer.setPixelRatio(window.devicePixelRatio);
-		renderer.setSize(window.innerWidth, window.innerHeight);
+		renderer.setSize(100%, 400px);
 		container.appendChild(renderer.domElement);
 		
 		//TransformControls 생성
