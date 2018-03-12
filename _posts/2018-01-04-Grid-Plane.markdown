@@ -90,7 +90,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		//랜더러
 		renderer = new THREE.WebGLRenderer({antialias:true});
 		renderer.setPixelRatio(window.devicePixelRatio);
-		renderer.setSize($('.post').innerWidth, $('.post').innerWidth * 2);
+		renderer.setSize($('.post').innerWidth(), $('.post').innerWidth() * 2);
 		container.appendChild(renderer.domElement);
 		
 		//TransformControls 생성
