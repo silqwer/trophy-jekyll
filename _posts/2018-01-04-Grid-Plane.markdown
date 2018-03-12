@@ -9,13 +9,13 @@ image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/threejs/build/three.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/threejs/js/Detector.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/threejs/js/libs/stats.min.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/controls/TransformControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/controls/OrbitControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/libs/dat.gui.min.js"></script>
-ㅇㅇㅇ
 <script type="text/javascript">
 	if(!Detector.webgl){
 		Detector.addGetWebGLMessage();
@@ -40,7 +40,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	function init(){
 		
 		container = document.createElement('div');
-		document.body.appendChild(container);
+		$('#threejsView').appendChild(container);
 		
 		var info = document.createElement('div');
 		info.style.position = 'absolute';
@@ -149,6 +149,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	animate();
 	
 </script>
+
+<div id="threejsView"></div>
 
 <div id="disqus_thread"></div>
 <script>
