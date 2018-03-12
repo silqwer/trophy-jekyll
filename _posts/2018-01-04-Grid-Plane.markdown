@@ -16,6 +16,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <script src="{{ site.url }}/assets/threejs/js/controls/TransformControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/controls/OrbitControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/libs/dat.gui.min.js"></script>
+<div id="threejsView" style="width:100%; height:300px;"></div>
 <script type="text/javascript">
 	if(!Detector.webgl){
 		Detector.addGetWebGLMessage();
@@ -150,7 +151,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	
 </script>
 
-<div id="threejsView"></div>
+
 
 <div id="disqus_thread"></div>
 <script>
