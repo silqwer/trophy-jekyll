@@ -40,7 +40,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	function init(){
 		
 		container = document.createElement('div');
-		$('#threejsView').appendChild(container);
+		$('#threejsView').append(container);
 		
 		var info = document.createElement('div');
 		info.style.position = 'absolute';
