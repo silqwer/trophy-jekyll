@@ -16,9 +16,10 @@ default_img:
 name: KimYongHo
 profile_img: /assets/img/profile/me.png
 profile: 4년 차 웹 개발자로 서버사이드 개발 및 프론트엔트 개발에서 다양한 경험이 있습니다. java, Spring Framework, javaScript, git, svn, MySQL, Oracle 등의 기술을 사용해서 서비스를 개발하고 및 유지보수한 경험이 있으며 항상 개발 프로세서와 개발 문화를개선하려 노력하고 있습니다.
-social: https://www.facebook.com/yongho.kim.58
-github: https://github.com/silqwer
-
+social:
+	github: https://github.com/silqwer
+	facebook:  https://www.facebook.com/yongho.kim.58
+	
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
