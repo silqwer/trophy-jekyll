@@ -93,8 +93,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		renderer.setSize($('.post').innerWidth(), $('.post').innerWidth() * 2);
 		container.appendChild(renderer.domElement);
 		
-		$(#threejsView).innerWidth($('.post').innerWidth()); 
-		$(#threejsView).innerWidth($('.post').innerWidth() * 2); 
+		$('#threejsView').innerWidth($('.post').innerWidth()); 
+		$('#threejsView').innerWidth($('.post').innerWidth() * 2); 
 		
 		
 		//TransformControls 생성
