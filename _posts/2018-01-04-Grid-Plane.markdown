@@ -9,6 +9,15 @@ image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 
+<script type="text/javascript" src="{{ site.url }}/assets/threejs/build/three.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/threejs/js/Detector.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/threejs/js/libs/stats.min.js"></script>
+<script src="{{ site.url }}/assets/threejs/js/controls/TransformControls.js"></script>
+<script src="{{ site.url }}/assets/threejs/js/controls/OrbitControls.js"></script>
+<script src="{{ site.url }}/assets/threejs/js/libs/dat.gui.min.js"></script>
+
+
+
 <div id="disqus_thread"></div>
 <script>
 
