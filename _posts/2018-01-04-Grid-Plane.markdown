@@ -50,7 +50,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
 		stats.domElement.style.position = 'relative !important';
-		stats.domElement.style.position = 'fit-content';
+		stats.domElement.style.width = 'fit-content';
 		console.log(stats.dom);
 	
 
