@@ -49,6 +49,9 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
+		stats.style.positon = 'relative';
+		stats.style.width = 'fit-content';
+		stats.style.top = '50px';
 		container.appendChild(stats.dom);		//container에 stats dom append
 		//카메라 
 		camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
