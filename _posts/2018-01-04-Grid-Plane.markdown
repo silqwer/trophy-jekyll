@@ -53,6 +53,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		stats.dom.style.width = 'fit-content';
 		stats.dom.style.top = '50px';
 		console.log(stats.dom);
+		console.log(stats.dom.[0]);
+
 		container.appendChild(stats.dom);		//container에 stats dom append
 		//카메라 
 		camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
