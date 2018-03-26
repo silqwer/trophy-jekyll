@@ -94,11 +94,11 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		controls.damping = 0.2;
 		transformControl.attach(boxMesh);
 		//GUI 생성 
-		var gui = new dat.GUI();
+		var gui = new dat.GUI({autoPlace:false});
 		gui.add(params, 'xRotate');
 		gui.add(params, 'yRotate');
 		gui.add(params, 'zRotate');
-		gui.domElement.style.top = $('.post').offset().top;
+		gui.domElement.id = gui;
 		console.log(gui);
 		gui.open();
 		//윈도우 리사이즈 이벤트 리스너 등록
