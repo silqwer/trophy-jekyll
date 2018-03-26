@@ -41,14 +41,6 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		container.style.minHeight = '500px';		
 		container.style.height = '100%';
 		$('#threejsView').append(container);
-		// info 
-		var info = document.createElement('div');
-		info.style.position = 'absolute';
-		info.style.top = '10px';
-		info.style.width = '100%';
-		info.style.textAlign = 'center';
-		info.innerHTML = '<a href="/example/practice/gridPlane" target="_blank" rel="noopener">Full shot</a> - voxel painter';
-		container.appendChild(info);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
 		container.appendChild(stats.dom);		//container에 stats dom append
@@ -66,7 +58,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		var geometry = new THREE.PlaneBufferGeometry(1000, 1000);
 		geometry.rotateX(-Math.PI/2);
 		//박스 생성
-		var boxTexture = new THREE.TextureLoader().load('/textures/crate.gif');		//박스 텍스쳐 가져오기 
+		var boxTexture = new THREE.TextureLoader().load('{{ site.url }}/assets/threejs/textures/crate.gif');		//박스 텍스쳐 가져오기 
 		var boxGeometry = new THREE.BoxBufferGeometry(200, 200, 200);							//박스 지오메트리
 		var boxMaterial  = new THREE.MeshBasicMaterial({map:boxTexture});					//박스 메터리얼
 		boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
