@@ -38,7 +38,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	function init(){
 		container = document.createElement('div');
 		container.style.width = '100%';
-		container.style.mim-height = '500px';		
+		container.style.minHeight = '500px';		
 		container.style.height = '100%';
 		$('#threejsView').append(container);
 		// info 
