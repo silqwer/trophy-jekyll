@@ -53,8 +53,6 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		stats.domElement.style.position = 'relative !important';
 		stats.domElement.style.position = 'fit-content';
 		stats.domElement.style.top = $('.post').offset().top;
-		console.log(stats.dom);	
-
 		container.appendChild(stats.dom);		//container에 stats dom append
 		//카메라 
 		camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
@@ -100,6 +98,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		gui.add(params, 'xRotate');
 		gui.add(params, 'yRotate');
 		gui.add(params, 'zRotate');
+		console.log(gui);
 		gui.open();
 		//윈도우 리사이즈 이벤트 리스너 등록
 		window.addEventListener('resize', onWindowResize, false);
