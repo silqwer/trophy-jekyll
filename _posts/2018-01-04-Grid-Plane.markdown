@@ -59,8 +59,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		geometry.rotateX(-Math.PI/2);
 		//박스 생성
 		var boxTexture = new THREE.TextureLoader().load('{{ site.url }}/assets/threejs/textures/crate.gif');		//박스 텍스쳐 가져오기 
-		var boxGeometry = new THREE.BoxBufferGeometry(200, 200, 200);							//박스 지오메트리
-		var boxMaterial  = new THREE.MeshBasicMaterial({map:boxTexture});					//박스 메터리얼
+		var boxGeometry = new THREE.BoxBufferGeometry(200, 200, 200);																						//박스 지오메트리
+		var boxMaterial  = new THREE.MeshBasicMaterial({map:boxTexture});																				//박스 메터리얼
 		boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
 		scene.add(boxMesh);
 		//바닥 메시 생성 
@@ -75,67 +75,44 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize($('.post').innerWidth(), $('.post').innerWidth() * 2);
 		container.appendChild(renderer.domElement);
-		
-		$('#threejsView').innerWidth($('.post').innerWidth()); 
-		$('#threejsView').innerHeight($('.post').innerWidth() * 2); 
-		
-		
 		//TransformControls 생성
 		transformControl = new THREE.TransformControls(camera, renderer.domElement);
-		//transformControl.addEventListener('change', render);
+		transformControl.addEventListener('change', render);
 		scene.add(transformControl);
-		
 		//OrbitControls 생성 - 마우스 조작 컨트롤러
 		var controls = new THREE.OrbitControls(camera, renderer.domElement);
 		controls.damping = 0.2;
-		
 		transformControl.attach(boxMesh);
-		
-		
-		
 		//GUI 생성 
 		var gui = new dat.GUI();
 		gui.add(params, 'xRotate');
 		gui.add(params, 'yRotate');
 		gui.add(params, 'zRotate');
 		gui.open();
-		
 		//윈도우 리사이즈 이벤트 리스너 등록
 		window.addEventListener('resize', onWindowResize, false);
-		
 	}
-	
 	// 그리기 함수 
 	function render(){
 		renderer.render(scene,camera);
 	}
-	
 	function animate(){
 		requestAnimationFrame(animate);
-		
 		if(params.xRotate){
 			boxMesh.rotation.x += 0.01;	
 		}
-		
 		if(params.yRotate){
 			boxMesh.rotation.y += 0.01;	
 		}
-		
 		if(params.zRotate){
 			boxMesh.rotation.z += 0.01;	
 		}
-		
 		renderer.render(scene,camera);
-		
 		stats.update();
-		
 		transformControl.update();
 	}
-	
 	init();
-	//render();
 	animate();
-	
 </script>
 
 
