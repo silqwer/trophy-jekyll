@@ -98,6 +98,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		gui.add(params, 'xRotate');
 		gui.add(params, 'yRotate');
 		gui.add(params, 'zRotate');
+		gui.domElement.style.top = $('.post').offset().top;
 		console.log(gui);
 		gui.open();
 		//윈도우 리사이즈 이벤트 리스너 등록
