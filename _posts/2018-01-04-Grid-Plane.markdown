@@ -49,7 +49,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
-		stats.dom.style.positon = 'relative';
+		stats.dom.style.positon = 'relative !important';
 		stats.dom.style.width = 'fit-content';
 		stats.dom.style.top = '50px';
 		container.appendChild(stats.dom);		//container에 stats dom append
