@@ -94,7 +94,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		controls.damping = 0.2;
 		transformControl.attach(boxMesh);
 		//GUI 생성 
-		var gui = new dat.GUI({autoPlace:false});
+		var gui = new dat.GUI();
 		gui.add(params, 'xRotate');
 		gui.add(params, 'yRotate');
 		gui.add(params, 'zRotate');
