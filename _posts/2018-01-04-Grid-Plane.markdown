@@ -53,7 +53,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		stats.dom.style.width = 'fit-content';
 		stats.dom.style.top = '50px';
 		console.log(stats.dom);
-		console.log(stats.dom.style.0);
+		console.log(stats.dom.style.[0]);
 
 		container.appendChild(stats.dom);		//container에 stats dom append
 		//카메라 
