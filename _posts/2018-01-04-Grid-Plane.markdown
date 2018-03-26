@@ -19,6 +19,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <style type="text/css">
 #threejsView div canvas{
 	width:100% !important;
+	height: 500px !important;
 }
 </style>
 
@@ -44,7 +45,6 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	function init(){
 		container = document.createElement('div');
 		container.style.width = '100%';
-		container.style.height = '500px';
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
