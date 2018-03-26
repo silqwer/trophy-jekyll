@@ -49,9 +49,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
-		stats.dom.style.positon = 'relative !important';
-		stats.dom.style.width = 'fit-content';
-		stats.dom.style.top = $('.post').offset().top;
+		stats.domElement.style.position = 'relative !important';
+		stats.domElement.style.position = 'fit-content';
 		console.log(stats.dom);
 	
 
