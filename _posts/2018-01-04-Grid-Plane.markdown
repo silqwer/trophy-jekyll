@@ -21,7 +21,6 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 	if(!Detector.webgl){
 		Detector.addGetWebGLMessage();
 	}
-	
 	var container, camera, scene, renderer, boxMesh;
 	var transformControl; 	//트랜스폼 컨트롤러 
 	var stats; 
@@ -30,19 +29,17 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 			yRotate : false,
 			zRotate : false
 	}
-	
 	function onWindowResize(){
 		camera.aspect = window.innerWidth / window.innerHeight;
 		camera.updateProjectionMatrix();
 		renderer.setSize(window.innerWidth, window.innerHeight);
 	}
-	
 	//초기화 함수 
 	function init(){
-		
 		container = document.createElement('div');
+		container.style.width = '100%';
 		$('#threejsView').append(container);
-		
+		// info 
 		var info = document.createElement('div');
 		info.style.position = 'absolute';
 		info.style.top = '10px';
@@ -50,43 +47,35 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		info.style.textAlign = 'center';
 		info.innerHTML = '<a href="/example/practice/gridPlane" target="_blank" rel="noopener">Full shot</a> - voxel painter';
 		container.appendChild(info);
-		
-		stats = new Stats(); 					//stats 객채 생성 
+		// stats 
+		stats = new Stats(); 								//stats 객채 생성 
 		container.appendChild(stats.dom);		//container에 stats dom append
-		
 		//카메라 
 		camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
 		camera.position.set(500,800,1300);
-		camera.lookAt(new THREE.Vector3());
-		
+		camera.lookAt(new THREE.Vector3());kl
 		//씬
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color(0xf0f0f0);
-		
 		//그리드 
 		var gridHelper = new THREE.GridHelper(1000, 20);
-		scene.add(gridHelper);
-		
+		scene.add(gridHelper);	
 		//지오메트리 
 		var geometry = new THREE.PlaneBufferGeometry(1000, 1000);
 		geometry.rotateX(-Math.PI/2);
-		
 		//박스 생성
 		var boxTexture = new THREE.TextureLoader().load('/textures/crate.gif');		//박스 텍스쳐 가져오기 
-		var boxGeometry = new THREE.BoxBufferGeometry(200, 200, 200);				//박스 지오메트리
-		var boxMaterial  = new THREE.MeshBasicMaterial({map:boxTexture});				//박스 메터리얼
+		var boxGeometry = new THREE.BoxBufferGeometry(200, 200, 200);							//박스 지오메트리
+		var boxMaterial  = new THREE.MeshBasicMaterial({map:boxTexture});					//박스 메터리얼
 		boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
 		scene.add(boxMesh);
-		
 		//바닥 메시 생성 
 		plane = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({visible:false}));
 		scene.add(plane);
-		
 		//directional Light 조명 
 		var directionalLight = new THREE.DirectionalLight(0xffffff);
 		directionalLight.position.set(1,0.75,0.5).normalize();
 		scene.add(directionalLight);
-		
 		//랜더러
 		renderer = new THREE.WebGLRenderer({antialias:true});
 		renderer.setPixelRatio(window.devicePixelRatio);
