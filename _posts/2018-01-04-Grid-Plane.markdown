@@ -49,10 +49,11 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
+		stats.domElement.style.position = 'absolute';
 		stats.domElement.style.position = 'relative !important';
-		stats.domElement.style.width = 'fit-content';
-		console.log(stats.dom);
-	
+		stats.domElement.style.position = 'fit-content';
+		stats.domElement.style.top = $('.post').offset().top;
+		console.log(stats.dom);	
 
 		container.appendChild(stats.dom);		//container에 stats dom append
 		//카메라 
