@@ -17,7 +17,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <script src="{{ site.url }}/assets/threejs/js/controls/OrbitControls.js"></script>
 <script src="{{ site.url }}/assets/threejs/js/libs/dat.gui.min.js"></script>
 <style type="text/css">
-#threejsView canvas{
+#threejsView div canvas{
 	width:100%;
 }
 </style>
