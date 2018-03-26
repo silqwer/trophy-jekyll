@@ -55,7 +55,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		//카메라 
 		camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
 		camera.position.set(500,800,1300);
-		camera.lookAt(new THREE.Vector3());kl
+		camera.lookAt(new THREE.Vector3());
 		//씬
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color(0xf0f0f0);
