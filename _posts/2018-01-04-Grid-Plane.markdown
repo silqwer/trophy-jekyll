@@ -46,6 +46,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		container.style.width = '100%';
 		container.style.minHeight = '500px';		
 		container.style.height = '100%';
+		container.style.top = $('.post').offset().top;
 		$('#threejsView').append(container);
 		// stats 
 		stats = new Stats(); 								//stats 객채 생성 
