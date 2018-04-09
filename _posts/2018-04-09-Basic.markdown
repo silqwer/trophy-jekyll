@@ -9,4 +9,6 @@ image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 
-<a href="https://{{ site.url }}/assets/arjs/three.js/basic.html" onclick="window.open(this.href, '_blank'); return false;">Basic.html</a>
+<a href="{{ site.url }}/assets/arjs/three.js/basic.html" onclick="window.open(this.href, '_blank'); return false;">Basic.html</a>
+<a href="/../assets/arjs/three.js/basic.html" onclick="window.open(this.href, '_blank'); return false;">Basic.html</a>
+
