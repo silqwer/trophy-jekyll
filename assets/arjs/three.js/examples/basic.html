@@ -6,11 +6,15 @@
 <script src="../build/ar.js"></script>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'><div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
+<div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>	
 	<a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - three.js camera transform
 	<br/>
 	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
-</div><script>
+</div>
+
+<script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
@@ -56,33 +60,34 @@
 		// to read from a video
 		// sourceType : 'video',
 		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/videos/headtracking.mp4',		
-	})
+	});
 
 	arToolkitSource.init(function onReady(){
-		onResize()
-	})
+		onResize();
+	});
 	
 	// handle resize
 	window.addEventListener('resize', function(){
-		onResize()
-	})
+		onResize();
+	});
+	
 	function onResize(){
-		arToolkitSource.onResize()	
-		arToolkitSource.copySizeTo(renderer.domElement)	
+		arToolkitSource.onResize();	
+		arToolkitSource.copySizeTo(renderer.domElement)	;
 		if( arToolkitContext.arController !== null ){
-			arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)	
+			arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)	;
 		}	
 	}
+	
 	////////////////////////////////////////////////////////////////////////////////
 	//          initialize arToolkitContext
 	////////////////////////////////////////////////////////////////////////////////
-	
-
 	// create atToolkitContext
 	var arToolkitContext = new THREEx.ArToolkitContext({
-		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../data/data/camera_para.dat',
+		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../../data/data/camera_para.dat',
 		detectionMode: 'mono',
-	})
+	});
+	
 	// initialize it
 	arToolkitContext.init(function onCompleted(){
 		// copy projection matrix to camera
@@ -91,9 +96,10 @@
 
 	// update artoolkit on every frame
 	onRenderFcts.push(function(){
-		if( arToolkitSource.ready === false )	return
+		if( arToolkitSource.ready === false )	
+			return;
 
-		arToolkitContext.update( arToolkitSource.domElement )
+		arToolkitContext.update( arToolkitSource.domElement );
 		
 		// update scene.visible if the marker is seen
 		scene.visible = camera.visible
@@ -102,22 +108,21 @@
 	////////////////////////////////////////////////////////////////////////////////
 	//          Create a ArMarkerControls
 	////////////////////////////////////////////////////////////////////////////////
-	
 	// init controls for camera
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
-		patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro',
+		patternUrl : THREEx.ArToolkitContext.baseURL + '../../data/data/patt.hiro',
 		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix'
-	})
+	});
+	
 	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
 	scene.visible = false
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object in the scene
 	//////////////////////////////////////////////////////////////////////////////////
-
 	// add a torus knot	
 	var geometry	= new THREE.CubeGeometry(1,1,1);
 	var material	= new THREE.MeshNormalMaterial({
@@ -142,7 +147,6 @@
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
-
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
