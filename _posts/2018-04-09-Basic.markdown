@@ -13,7 +13,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <script src="{{ site.url }}/assets/arjs/vendor/aframe/build/aframe.min.js"></script>
 
 <!-- include ar.js for aframe -->
-<script src='{{ site.url }}/assets/arjs/aframe-ar.js'></script>
+<script src='{{ site.url }}/assets/arjs/build/aframe-ar.js'></script>
 <script>ARjs.Context.baseURL = '{{ site.url }}/assets/arjs/three.js/'</script>
 
 <div style='margin : 0px; overflow: hidden;>
