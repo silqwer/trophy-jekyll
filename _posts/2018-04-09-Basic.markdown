@@ -10,3 +10,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 
 <a href="{{ site.url }}/assets/arjs/three.js/examples/basic.html" onclick="window.open(this.href, '_blank'); return false;">Basic.html</a>
+<a href="{{ site.url }}/assets/arjs/three.js/practice/basic.html" onclick="window.open(this.href, '_blank'); return false;">monkey.html</a>
+
+
+ THREEx.ArToolkitContext.baseURL
