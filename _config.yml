@@ -33,3 +33,6 @@ style: compressed
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+
+# Rouge
+highlighter: rouge
