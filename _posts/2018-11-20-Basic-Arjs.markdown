@@ -12,23 +12,24 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 
 # Ar.js 기본 예제
 <pre class="brush:html;">
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>10 Lines</title>
-</head>
-<script src="../lib/arjs/aframe.min.js"></script>
-<script src="../lib/arjs/aframe-ar.min.js"></script>
- <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs>
-  	<a-marker preset="hiro">
-            <a-box position='0 0.5 0' material='color: black;'></a-box>
-  	</a-marker>
-  	<a-entity camera></a-entity>
-    </a-scene>
-  </body>
-</html>
+	<!DOCTYPE html>
+	<html>
+		<head>
+		<meta charset="UTF-8">
+		<title>10 Lines</title>
+		</head>
+		<script src="../lib/arjs/aframe.min.js"></script>
+		<script src="../lib/arjs/aframe-ar.min.js"></script>
+		<body style='margin : 0px; overflow: hidden;'>
+    	<a-scene embedded arjs>
+  			<a-marker preset="hiro">
+            	<a-box position='0 0.5 0' material='color: black;'></a-box>
+  			</a-marker>
+  			<a-entity camera>
+  			</a-entity>
+    	</a-scene>
+  	</body>
+	</html>
 </pre>
 	
 
