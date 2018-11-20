@@ -8,8 +8,8 @@ description: Ar.js 돌려보기
 image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
-<script src="{{ site.url }}/assets/resources/arjs/aframe.min.js"/>
-<script src="{{ site.url }}/assets/resources/arjs/aframe-ar.js"/>
+<script src="{{ site.url }}/assets/resources/lib/arjs/aframe.min.js"/>
+<script src="{{ site.url }}/assets/resources/lib/arjs/aframe-ar.js"/>
 <div style="margin:0px; overflow:hidden;">
 	<a-scene embedded arjs>
   		<a-marker preset="hiro">
