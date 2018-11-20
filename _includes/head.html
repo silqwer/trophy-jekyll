@@ -42,6 +42,9 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
+  <link rel="stylesheet" href="{{ '/assets/resources/lib/syntaxhighlighter/styles/shCore.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/resources/lib/syntaxhighlighter/styles/shThemeRDark.css' | prepend: site.baseurl }}">
+
   {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,4 +55,13 @@
       ga('send', 'pageview');
     </script>
   {% endif %}
+  
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shCore.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushCss.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushJava.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushJScript.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushSql.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushSql.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/resources/lib/syntaxhighlighter/scripts/shBrushXml.js' | prepend: site.baseurl }}"></script>
+
 </head>
