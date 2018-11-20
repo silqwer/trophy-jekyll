@@ -11,8 +11,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 
 
 # Ar.js 기본 예제
-<pre class="brush:html;">
-
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,8 +29,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
     </a-scene>
   </body>
 </html>
-
-</pre>
+	
 	
 
 <iframe width="100%" height="500px;" src="{{ site.url }}/assets/resources/html/basicAr.html"></iframe>
