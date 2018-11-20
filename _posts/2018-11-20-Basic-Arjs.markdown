@@ -12,6 +12,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 
 # Ar.js 기본 예제
 <pre class="brush:html;">
+<code>
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -30,6 +31,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
     	</a-scene>
   	</body>
 	</html>
+</code>
 </pre>
 	
 
