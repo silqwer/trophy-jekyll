@@ -24,7 +24,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 <title>10 Lines</title>
 </head>
 <script src="../lib/arjs/aframe.min.js"></script>
-<script src="../lib/arjs/aframe-ar.min.js"> </script>
+<script src="../lib/arjs/aframe-ar.min.js"></script>
  <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
   	<a-marker preset="hiro">
