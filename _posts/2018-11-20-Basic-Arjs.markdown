@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic Arjs"
+title: "Arjs Basic"
 date: 2018-11-20
 categories:
   - ARjs
@@ -8,8 +8,14 @@ description: Ar.js 돌려보기
 image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
-<script src="{{ site.url }}/assets/resources/lib/arjs/aframe.min.js"/>
-<script src="{{ site.url }}/assets/resources/lib/arjs/aframe-ar.js"/>
+<script>
+	var min = document.createElement('script');
+	min.src = '{{ site.url }}/assets/resources/lib/arjs/aframe.min.js';
+	document.head.appendChild(min);
+	var ar = document.createElement('script');
+	ar.src = '{{ site.url }}/assets/resources/lib/arjs/aframe-ar.js';
+	document.head.appendChild(ar);
+</script>
 <div style="margin:0px; overflow:hidden;">
 	<a-scene embedded arjs>
   		<a-marker preset="hiro">
