@@ -9,9 +9,9 @@ image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 
-
 # Ar.js 기본 예제
 ```html
+<pre class="brush: html">
 	<body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs>
 		<a-marker preset="hiro">
@@ -20,6 +20,7 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 		<a-entity camera>
 		</a-entity>
 	</a-scene>
+</pre>
 ```
 
 <iframe width="100%" height="500px;" src="{{ site.url }}/assets/resources/html/basicAr.html"></iframe>
