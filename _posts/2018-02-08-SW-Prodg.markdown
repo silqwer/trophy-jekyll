@@ -5,28 +5,28 @@ date: 2018-02-08
 categories:
   - Portfolio
 description: EPL 을 활용한 코딩과 3D시뮬레이션 알기쉬운 코딩, 피지컬 컴퓨팅
-image: /../assets/img/sw/sw17.png
-image-sm: /../assets/img/sw/sw17.png
+image: /../assets/resources/img/sw/sw17.png
+image-sm: /../assets/resources/img/sw/sw17.png
 ---
 
 <div class="container">
 	<div id="slides">
-		<img src="{{ site.url }}/assets/img/sw/sw3.png" alt="1">
-     	<img src="{{ site.url }}/assets/img/sw/sw4.png" alt="2">
-     	<img src="{{ site.url }}/assets/img/sw/sw5.png" alt="3">
-     	<img src="{{ site.url }}/assets/img/sw/sw6.png" alt="4">
-     	<img src="{{ site.url }}/assets/img/sw/sw7.png" alt="5">
-     	<img src="{{ site.url }}/assets/img/sw/sw8.png" alt="6">
-     	<img src="{{ site.url }}/assets/img/sw/sw9.png" alt="7">
-     	<img src="{{ site.url }}/assets/img/sw/sw10.png" alt="8">
-     	<img src="{{ site.url }}/assets/img/sw/sw11.png" alt="9">
-     	<img src="{{ site.url }}/assets/img/sw/sw12.png" alt="10">
-     	<img src="{{ site.url }}/assets/img/sw/sw13.png" alt="11">
-     	<img src="{{ site.url }}/assets/img/sw/sw14.png" alt="12">
-     	<img src="{{ site.url }}/assets/img/sw/sw15.png" alt="13">
-     	<img src="{{ site.url }}/assets/img/sw/sw16.png" alt="14">
-     	<img src="{{ site.url }}/assets/img/sw/sw17.png" alt="15"> 
-     	<img src="{{ site.url }}/assets/img/sw/sw18.png" alt="16">
+		<img src="{{ site.url }}/assets/resources/img/sw/sw3.png" alt="1">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw4.png" alt="2">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw5.png" alt="3">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw6.png" alt="4">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw7.png" alt="5">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw8.png" alt="6">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw9.png" alt="7">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw10.png" alt="8">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw11.png" alt="9">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw12.png" alt="10">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw13.png" alt="11">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw14.png" alt="12">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw15.png" alt="13">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw16.png" alt="14">
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw17.png" alt="15"> 
+     	<img src="{{ site.url }}/assets/resources/img/sw/sw18.png" alt="16">
 	</div>
 </div>
 

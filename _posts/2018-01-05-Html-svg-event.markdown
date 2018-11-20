@@ -5,8 +5,8 @@ date: 2018-01-05
 categories:
   - Test
 description: Html으로 불러온 svg에서 svg관련 event가 동작하는지 테스트  
-image: /../assets/img/test/background.png
-image-sm: /../assets/img/test/background.png
+image: /../assets/resources/img/test/background.png
+image-sm: /../assets/resources/img/test/background.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -83,7 +83,7 @@ image-sm: /../assets/img/test/background.png
 	}
 </style>
 
-<object id="svgObj" width="100%" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
+<object id="svgObj" width="100%" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/resources/file/ARS2018299914467.svg" ></object>
 
 <div id="disqus_thread"></div>
 <script>

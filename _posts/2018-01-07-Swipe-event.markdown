@@ -5,8 +5,8 @@ date: 2018-01-07
 categories:
   - Test
 description: SVG file에 jquery.mobile을 넣고 swipe 함수가 동작하는지 확인하는 테스트
-image: /../assets/img/test/background.png
-image-sm: /../assets/img/test/background.png
+image: /../assets/resources/img/test/background.png
+image-sm: /../assets/resources/img/test/background.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

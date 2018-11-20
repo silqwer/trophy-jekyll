@@ -5,30 +5,30 @@ date: 2018-02-06
 categories:
   - Portfolio
 description: 하이브리드 웹 앱 문제풀이, 패스빌 
-image: /../assets/img/pass/img4.png
-image-sm: /../assets/img/pass/img4.png
+image: /../assets/resources/img/pass/img4.png
+image-sm: /../assets/resources/img/pass/img4.png
 ---
 
 <div class="container">
 	<div id="slides">
-		<img src="{{ site.url }}/assets/img/pass/img.png" alt="1">
-		<img src="{{ site.url }}/assets/img/pass/img2.png" alt="2">
-		<img src="{{ site.url }}/assets/img/pass/img3.png" alt="3">
-		<img src="{{ site.url }}/assets/img/pass/img4.png" alt="4">
-		<img src="{{ site.url }}/assets/img/pass/img5.png" alt="5">
-		<img src="{{ site.url }}/assets/img/pass/img6.png" alt="6">
-		<img src="{{ site.url }}/assets/img/pass/img7.png" alt="7">
-		<img src="{{ site.url }}/assets/img/pass/img8.png" alt="8">
-		<img src="{{ site.url }}/assets/img/pass/img9.png" alt="9">
-		<img src="{{ site.url }}/assets/img/pass/img10.png" alt="10">
-		<img src="{{ site.url }}/assets/img/pass/img11.png" alt="11">
-		<img src="{{ site.url }}/assets/img/pass/img12.png" alt="12">
-		<img src="{{ site.url }}/assets/img/pass/img13.png" alt="13">
-		<img src="{{ site.url }}/assets/img/pass/img14.png" alt="14">
-		<img src="{{ site.url }}/assets/img/pass/img15.png" alt="15">
-		<img src="{{ site.url }}/assets/img/pass/img16.png" alt="16">
-		<img src="{{ site.url }}/assets/img/pass/img17.png" alt="17">
-		<img src="{{ site.url }}/assets/img/pass/img18.png" alt="18">
+		<img src="{{ site.url }}/assets/resources/img/pass/img.png" alt="1">
+		<img src="{{ site.url }}/assets/resources/img/pass/img2.png" alt="2">
+		<img src="{{ site.url }}/assets/resources/img/pass/img3.png" alt="3">
+		<img src="{{ site.url }}/assets/resources/img/pass/img4.png" alt="4">
+		<img src="{{ site.url }}/assets/resources/img/pass/img5.png" alt="5">
+		<img src="{{ site.url }}/assets/resources/img/pass/img6.png" alt="6">
+		<img src="{{ site.url }}/assets/resources/img/pass/img7.png" alt="7">
+		<img src="{{ site.url }}/assets/resources/img/pass/img8.png" alt="8">
+		<img src="{{ site.url }}/assets/resources/img/pass/img9.png" alt="9">
+		<img src="{{ site.url }}/assets/resources/img/pass/img10.png" alt="10">
+		<img src="{{ site.url }}/assets/resources/img/pass/img11.png" alt="11">
+		<img src="{{ site.url }}/assets/resources/img/pass/img12.png" alt="12">
+		<img src="{{ site.url }}/assets/resources/img/pass/img13.png" alt="13">
+		<img src="{{ site.url }}/assets/resources/img/pass/img14.png" alt="14">
+		<img src="{{ site.url }}/assets/resources/img/pass/img15.png" alt="15">
+		<img src="{{ site.url }}/assets/resources/img/pass/img16.png" alt="16">
+		<img src="{{ site.url }}/assets/resources/img/pass/img17.png" alt="17">
+		<img src="{{ site.url }}/assets/resources/img/pass/img18.png" alt="18">
 	</div>
 </div>
 

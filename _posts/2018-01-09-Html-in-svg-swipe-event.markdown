@@ -5,8 +5,8 @@ date: 2018-01-08
 categories:
   - Test
 description: SVG 함수 touchstart와 touchend를 이용해 만든 swpie 함수와 colorChange 함수 테스트
-image: /../assets/img/test/background.png
-image-sm: /../assets/img/test/background.png
+image: /../assets/resources/img/test/background.png
+image-sm: /../assets/resources/img/test/background.png
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -109,7 +109,7 @@ image-sm: /../assets/img/test/background.png
 	
 </script>
 
-<object id="svgObj" width="100%" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/file/ARS2018299914467.svg" ></object>
+<object id="svgObj" width="100%" height="600"  type="image/svg+xml" data="{{ site.url }}/assets/resources/file/ARS2018299914467.svg" ></object>
 <h1 id="result">스와이프를 해주세요.</h1>
 
 <div id="disqus_thread"></div>
