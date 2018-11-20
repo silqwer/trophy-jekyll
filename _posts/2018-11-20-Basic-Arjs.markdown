@@ -8,12 +8,8 @@ description: Ar.js 돌려보기
 image: /../assets/threejs/screenshot/gridPlane.png
 image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
-<script src="{{ site.url }}/assets\resources/lib/syntaxhighlighter/scripts.slides.min.js"></script>
-<script src="{{ site.url }}/assets/slider/js/jquery.slides.min.js"></script>
 
-<script>
-	SyntaxHighlighter.all();
-</script>
+
 # Ar.js 기본 예제
 <pre class="brush:html;">
 
