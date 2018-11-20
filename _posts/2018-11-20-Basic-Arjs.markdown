@@ -22,6 +22,9 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 </pre>
 
 
+```
+int n =0; 
+```
 
 
 
@@ -29,3 +32,6 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 
 
 <iframe width="100%" height="500px;" src="{{ site.url }}/assets/resources/html/basicAr.html"></iframe>
+
+
+ㅇㄹㅇㄹㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
