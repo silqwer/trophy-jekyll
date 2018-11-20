@@ -10,6 +10,8 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 <script>
 	var min = document.createElement('script');
+	var siteUrl = '{{ site.url }}';
+	console.log('siteUrl:"+siteUrl);
 	min.src = '{{ site.url }}/assets/resources/lib/arjs/aframe.min.js';
 	document.head.appendChild(min);
 	var ar = document.createElement('script');
