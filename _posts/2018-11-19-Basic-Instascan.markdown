@@ -10,4 +10,4 @@ image-sm: /../assets/threejs/screenshot/gridPlane.png
 ---
 # instascan.js 기본 예제
 
-<iframe width="100%" height="500px;" src="{{ site.url }}/assets/resources/html/Instascan.html"></iframe>
+<iframe width="100%" height="500px;" src="{{ site.url }}/assets/resources/html/instascan.html"></iframe>
